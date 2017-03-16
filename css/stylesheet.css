@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	background-color: lightgrey;
+}
+
+#main-content {
+	margin: auto;
+	text-align: center;
+	max-width: 1200px;
+	background-color: white;
+	padding-bottom:25px;
+}
+ 
+#searchbox {
+	border: 2px solid lightgrey;
+	font-size: 16px;
+	margin-top: 35px;
+	padding: 10px;
+	outline: none;
+	width: 210px;
+	border-radius: 5px;
+	font-style: italic;
+}
+
+#gallery {
+	list-style-type: none;
+}
+#gallery li {
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 480px) {
+	#searchbox {
+		width: 340px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#searchbox {
+		width: 580px;
+	}
+}
